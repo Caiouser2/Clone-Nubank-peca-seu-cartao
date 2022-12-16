@@ -1,0 +1,371 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600&family=Work+Sans:ital,wght@0,400;1,300&display=swap" rel="stylesheet">
+    <link href="style.css" rel="stylesheet">
+    <title>Clone-Nubank-Pedir-Cartão</title>
+</head>
+
+<body>
+    <!-- Pop up warning non-comercial content -->
+    <div class="warning-content">
+        <div class="container-button-hide-pop-up">
+            <button type="button" id="button-hide-pop-up">X</button>    
+        </div>
+        <div class="align-warning">
+            <h2>
+                O contéudo apresentado trata-se de um exércicio com foco na prática e demonstração de habilidades no desinvolvimento web.
+                Não há intuito de enganar ou se passar pela instituição de pagamentos Nubank.
+            </h2>
+            <br/>
+            <p>Todas as informações, imagens, textos, etc. foram obtidos em <a href="https://nubank.com.br/pedir/nu/">Site oficial</a>, e tem seus direitos reservados a Nu Pagamentos S.A - Instituição de Pagamento.</p>
+        </div>
+    </div>
+    <div class="background-opacity"></div>
+
+    <!-- header logo and button "quero ser Nubank" -->
+    <div class="alternative-button-wanna-be-nubank adjust11">
+        <button type="button"><a href="#top-of-page">Quero ser Nubank</a></button>
+    </div>
+    <header class="adjust9">
+        <div class="container-menu-nav adjust10">
+            <div class="adjust4 align-elements-menu-nav">
+                <div class="container-logo">
+                    <svg width="44" height="24" viewBox="0 0 58 32" xmlns="http://www.w3.org/2000/svg">
+                        <path
+                            d="M10.4699 3.05246C12.304 1.12557 14.7369 0 17.5951 0C23.1632 0 26.8549 4.06542 27.5612 10.1557C27.7902 12.1335 27.7881 14.9219 27.7858 18.1516C27.7855 18.4828 27.7853 18.8187 27.7853 19.1588V31.2578H20.1281V22.309C20.1281 22.309 20.1125 14.6501 20.0657 13.2187C19.8602 6.98449 16.1695 3.06722 10.4691 3.06301C8.74925 4.88006 7.82773 7.10172 7.69183 10.4987C7.67315 10.9725 7.67785 12.6519 7.68404 14.8653C7.68725 16.0121 7.69086 17.3023 7.69183 18.6424C7.6975 24.4753 7.69183 31.2591 7.69183 31.2591H0.0346685V17.487C0.0346685 17.0151 0.0260685 16.5392 0.0174352 16.0614C6.75514e-05 15.1003 -0.0174352 14.1318 0.0346685 13.1728C0.121182 11.5741 0.397742 10.0025 1.14374 8.54252C2.85132 5.1978 6.35016 3.04426 10.0802 3.04426C10.2105 3.04426 10.3409 3.047 10.4699 3.05246Z"
+                            class="purple-logo-nubank"></path>
+                        <path
+                            d="M57.9653 18.8272C58.0174 17.8682 57.9999 16.8996 57.9826 15.9386C57.9739 15.4608 57.9653 14.9849 57.9653 14.513V0.740867H50.3082C50.3082 0.740867 50.3025 7.52467 50.3082 13.3575C50.3091 14.6976 50.3127 15.9877 50.3159 17.1345C50.3221 19.348 50.3268 21.0274 50.3082 21.5012C50.1723 24.8983 49.2507 27.1199 47.5309 28.937C41.8306 28.9327 38.14 25.0154 37.9344 18.7813C37.8876 17.3499 37.8678 13.7978 37.8678 9.68381V0.735023L30.2163 0.742173V12.8412C30.2163 13.1813 30.216 13.5171 30.2158 13.8484C30.2134 17.0781 30.2114 19.8664 30.4404 21.8443C31.1452 27.9346 34.8369 32 40.405 32C43.2633 32 45.6962 30.8744 47.5303 28.9475C47.6592 28.953 47.7895 28.9557 47.9198 28.9557C51.6498 28.9557 55.1487 26.8022 56.8563 23.4575C57.6023 21.9974 57.8788 20.4259 57.9653 18.8272Z"
+                            class="purple-logo-nubank"></path>
+                    </svg>
+                </div>
+
+                <nav class="space-nav"></nav>
+
+                <div class="container-button-wanna-be-nubank">
+                    <div class="align-buuton-wanna-be-nubank">
+                        <div>
+                            <button type="button"><a href="#top-of-page">Quero ser Nubank</a></button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <!-- white logo svg nubank -->
+    <div class="container-logo-nubank">
+        <span class="white-logo-svg">
+            <svg width="58" height="32" viewBox="0 0 58 32" xmlns="http://www.w3.org/2000/svg">
+                <path
+                    d="M10.4699 3.05246C12.304 1.12557 14.7369 0 17.5951 0C23.1632 0 26.8549 4.06542 27.5612 10.1557C27.7902 12.1335 27.7881 14.9219 27.7858 18.1516C27.7855 18.4828 27.7853 18.8187 27.7853 19.1588V31.2578H20.1281V22.309C20.1281 22.309 20.1125 14.6501 20.0657 13.2187C19.8602 6.98449 16.1695 3.06722 10.4691 3.06301C8.74925 4.88006 7.82773 7.10172 7.69183 10.4987C7.67315 10.9725 7.67785 12.6519 7.68404 14.8653C7.68725 16.0121 7.69086 17.3023 7.69183 18.6424C7.6975 24.4753 7.69183 31.2591 7.69183 31.2591H0.0346685V17.487C0.0346685 17.0151 0.0260685 16.5392 0.0174352 16.0614C6.75514e-05 15.1003 -0.0174352 14.1318 0.0346685 13.1728C0.121182 11.5741 0.397742 10.0025 1.14374 8.54252C2.85132 5.1978 6.35016 3.04426 10.0802 3.04426C10.2105 3.04426 10.3409 3.047 10.4699 3.05246Z"
+                    class="letter-N-and-U-svg"></path>
+                <path
+                    d="M57.9653 18.8272C58.0174 17.8682 57.9999 16.8996 57.9826 15.9386C57.9739 15.4608 57.9653 14.9849 57.9653 14.513V0.740867H50.3082C50.3082 0.740867 50.3025 7.52467 50.3082 13.3575C50.3091 14.6976 50.3127 15.9877 50.3159 17.1345C50.3221 19.348 50.3268 21.0274 50.3082 21.5012C50.1723 24.8983 49.2507 27.1199 47.5309 28.937C41.8306 28.9327 38.14 25.0154 37.9344 18.7813C37.8876 17.3499 37.8678 13.7978 37.8678 9.68381V0.735023L30.2163 0.742173V12.8412C30.2163 13.1813 30.216 13.5171 30.2158 13.8484C30.2134 17.0781 30.2114 19.8664 30.4404 21.8443C31.1452 27.9346 34.8369 32 40.405 32C43.2633 32 45.6962 30.8744 47.5303 28.9475C47.6592 28.953 47.7895 28.9557 47.9198 28.9557C51.6498 28.9557 55.1487 26.8022 56.8563 23.4575C57.6023 21.9974 57.8788 20.4259 57.9653 18.8272Z"
+                    class="letter-N-and-U-svg"></path>
+            </svg>
+        </span>
+    </div>
+
+    <!-- section 1 -->
+    <section class="container-start-page" id="top-of-page"> 
+        <picture>
+            <!-- Use when need use more then one default of images -->
+            <source media="(min-width:1152px)"
+                srcset="./img/women-holding-card/1650479239-woman-holding-card-smiling-2-lg-3x.jpg">
+            <source media="(min-width:768px)"
+                srcset="./img/women-holding-card/1650479610-woman-holding-card-smiling-2-md-2x.jpg">
+            <source media="(min-width:0px)"
+                srcset="./img/women-holding-card/1650479255-woman-holding-card-smiling-2-xs-3x.jpg">
+                <!-- main image -->
+            <img src="./img/women-holding-card/1650479255-woman-holding-card-smiling-2-xs-3x.jpg"
+                alt="Imagem de uma mulher sorrindo enquanto segura o cartão do Nubank próximo ao rosto."
+                class="main-image-women-handing-card" loading="auto" importance="auto">
+        </picture>
+
+        <div class="set-order-elements adjust5 adjust7 adjust8">
+            <div class="container-text-credit-card">
+                <div>
+                    <div class="align-text-credit-card">
+                        <h1>Cartão de crédito com anuidade zero. Conta digital prática e sem custos.</h1>
+                    </div>
+                </div>
+            </div>
+            <div class="container-form">
+                <div class="align-form">
+                    <form action="#">
+                        <div class="groups-form">
+                            <h3>
+                                Com o Nubank, a resposta vem em menos de 1 minuto
+                            </h3>
+                            <div class="section-write-cpf">
+                                <label>
+                                    <input required="true" maxlength="14" minlength="0" type="tel" aria-required="true">
+                                    
+                                    <div class="align-text-write-cpf">
+                                        <span>Digite seu CPF</span>
+                                    </div>
+                                </label>
+                            </div>
+
+                            <div class="align-button-continuar">
+                                <button type="submit">Continuar
+                                    <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="none"
+                                        viewBox="0 0 21 20" color="currentColor" role="img">
+                                        <g>
+                                            <path d="M18.5 10H2.5M18.5 10L12 16.5M18.5 10L12 3.5" stroke="currentColor"
+                                                stroke-width="2" stroke-linecap="square" stroke-linejoin="round"></path>
+                                        </g>
+                                    </svg>
+                                </button>
+                            </div>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- section 2 -->
+    <section class="container-elements adjust2"> 
+        <div class="set-order-elements">
+            <div class="align-elements">
+                <div class="first-banner banners">
+                    <h2 class="preset-h2">Conta digital do Nubank</h2>
+                    <picture>
+                        <source media="(min-width:1152px)"
+                            srcset="./img/smartphone/1650480044-digital-account-phone-main-screen-md-3x.png">
+                       
+                        <source media="(min-width:768px)"
+                            srcset="./img/smartphone/1650480044-digital-account-phone-main-screen-md-4x.png">
+                        
+                        <source media="(min-width:0px)"
+                            srcset="./img/smartphone/1650480044-digital-account-phone-main-screen-md-2x.png">
+                        
+                        <img src="./img/smartphone/1650480044-digital-account-phone-main-screen-md-2x.png"
+                            alt="Aplicativo do Nubank aberto em celular na tela de conta" class="img-demonstrating-app-and-card"
+                            loading="lazy" importance="auto">
+                    </picture>
+                    <p>
+                        Rende mais que a poupança,
+                        sem taxa de manutenção
+                        nem tarifas escondidas.
+                    </p>
+                </div>
+    
+                <div class="second-banner banners">
+                    <h2 class="preset-h2">Cartão de crédito</h2>
+                    <picture>
+                        <source media="(min-width:1152px)"
+                            srcset="./img/card/1648571588-roxinho-basicos-flutuantes-md-3x (2).png">
+
+                        <source media="(min-width:768px)"
+                            srcset="./img/card/1648571588-roxinho-basicos-flutuantes-md-3x (1).png">
+                        
+                        <source media="(min-width:0px)"
+                            srcset="./img/card/1648571588-roxinho-basicos-flutuantes-md-3x.png">
+
+                        <img src="./img/card/1648571588-roxinho-basicos-flutuantes-md-3x.png"
+                            alt="Dois cartões roxinhos do Nubank flutuando" class="img-demonstrating-app-and-card" loading="lazy" importance="auto">
+                    </picture>
+                    <p>
+                        Moderno, simples
+                        e gratuito. Tudo para deixar
+                        o controle com você.
+                    </p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- section 3 -->
+    <section class="container-elements adjust adjust6"> 
+        <div class="set-order-elements adjust1">
+            <div class="container-image-boy-holding-smartphone">
+                <picture>
+                    <source media="(min-width:1152px)"
+                        srcset="./img/boy-with-smartphone/1650480396-man-sitting-with-phone-lg-3x.jpg">
+
+                    <source media="(min-width:768px)"
+                        srcset="./img/boy-with-smartphone/1650480409-man-sitting-with-phone-md-3x.jpg">
+
+                    <source media="(min-width:0px)"
+                        srcset="./img/boy-with-smartphone/1650480415-man-sitting-with-phone-xs-3x.jpg">
+
+                    <img src="./img/boy-with-smartphone/1650480415-man-sitting-with-phone-xs-3x.jpg"
+                        alt="imagem de um homem sorrindo deitado no sofá enquanto usa o celular" loading="lazy" importance="auto">
+                </picture>
+            </div>
+            <div class="text-description-functions-app">
+                <h2 class="preset-h2">Envie e receba pagamentos em segundos</h2>
+                <h4 class="preset-h4">Use o Pix para fazer pagamentos e transferências instantâneas a qualquer hora. Sem burocracia e sem custo, do jeito Nubank.</h4>
+                <h4>
+                    <a href="#" class="style-link animation-link">
+                        Conhecer o Pix no Nubank
+                        <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="none" viewBox="0 0 21 20" color="currentColor" role="img">
+                            <g>
+                                <path d="M18.5 10H2.5M18.5 10L12 16.5M18.5 10L12 3.5" stroke="currentColor" stroke-width="2" stroke-linecap="square" stroke-linejoin="round"></path>
+                            </g>
+                        </svg>
+                    </a>
+                </h4>
+            </div>
+        </div>
+    </section>
+
+    <!-- section 4 -->
+    <section class="container-elements container-image-women"> 
+        <div class="set-order-elements adjust7 adjust1">
+            <div class="text-end-of-complexity">
+                <h2 class="preset-h2">O fim da complexidade</h2>
+                <h4 class="preset-h4">Para quem sabe que tecnologia e design são melhores do que agências e papelada.</h4>
+            </div>
+        </div>
+    </section>
+
+    <!-- section 5 -->
+    <section class="container-elements"> 
+        <div class="set-order-elements adjust1">
+            <div class="text-zero-annuity">
+                <h2 class="preset-h2">Zero anuidade</h2>
+                <h4 class="preset-h4">Burocracia custa caro. Somos eficientes para você não ter que pagar tarifas.</h4>
+            </div>
+
+            <div class="align-image-000">
+                <picture>
+                    <source media="(min-width:1152px)"
+                        srcset="./img/zeros/1654870954-no-taxes (1).png">
+
+                    <source media="(min-width:768px)"
+                        srcset="./img/zeros/1654870954-no-taxes (2).png">
+
+                    <source media="(min-width:0px)"
+                        srcset="./img/zeros/1654870954-no-taxes.png">
+
+                    <img src="./img/zeros/1654870954-no-taxes.png"
+                        alt="Ilustração de um moço calmo meditando para simbolizar a simplicidade do Nubank."
+                        loading="lazy" importance="auto">
+                </picture>
+            </div>
+        </div>
+    </section>
+
+    <!-- section 6 -->
+    <section class="container-elements adjust"> 
+        <div class="set-order-elements adjust1">
+            <div class="text-nothing-bureaucratic">
+                <h2 class="preset-h2">E sem burocracia</h2>
+                <h4 class="preset-h4">Soluções simples, seguras e 100% digitais para você fazer tudo diretamente pelo celular.</h4>
+            </div>
+            <div class="image-boy-thinking">
+                <picture>
+                    <source media="(min-width:1152px)"
+                        srcset="./img/zeros/1650480879-nobureaucracy-3x (1).png">
+
+                    <source media="(min-width:768px)"
+                        srcset="./img/zeros/1650480879-nobureaucracy-3x (2).png">
+
+                    <source media="(min-width:0px)"
+                        srcset="./img/boy-thinking/1650480879-nobureaucracy-3x.png">
+
+                    <img src="./img/boy-thinking/1650480879-nobureaucracy-3x.png"
+                        alt="Ilustração de um moço calmo meditando para simbolizar a simplicidade do Nubank."
+                        loading="lazy" importance="auto">
+                </picture>
+            </div>
+        </div>
+    </section>
+
+    <!-- section 7 -->
+    <section class="container-elements adjust">
+        <div class="set-order-elements adjust3 adjust1">
+            <div class="text-what-is-in-the-media">
+                <h2 class="preset-h2">O que já saiu na mídia.</h2>
+            </div>
+
+            <div class="align-sequence-of-comments">
+                <h4 class="preset-h4">Nubank recebe US$ 400 mi e se torna uma das 5 instituições mais valiosas da América Latina</h4>
+                
+                <a href="#" class="style-link animation-link">Leia a matéria
+                    <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="none" viewBox="0 0 21 20" class="arrow-svg" color="currentColor" role="img">
+                        <g>
+                            <path fill-rule="evenodd" clip-rule="evenodd" d="M6.611 2.5h10.39a1 1 0 011 1v10.389h-2V5.914l-11 11L3.585 15.5l11-11H6.61v-2z"></path>
+                        </g>
+                    </svg>
+                </a>
+                
+                <picture>
+                    <source type="image/webp" srcset="./img/logos/1650481531-logo-cnn.png"><img
+                        src="./img/logos/1650481531-logo-cnn.png" alt="Logo da CNN Brasil"
+                        loading="lazy" importance="auto">
+                </picture>
+            </div>
+
+            <div class="align-sequence-of-comments">
+                <h4 class="preset-h4">O Nubank anuncia a aquisição da corretora Easynvest. O negócio representa a entrada no aquecido mercado de investimentos</h4>
+                
+                <a href="#" class="style-link animation-link">Leia a matéria
+                    <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="none" viewBox="0 0 21 20" class="arrow-svg" color="currentColor" role="img">
+                        <g>
+                            <path fill-rule="evenodd" clip-rule="evenodd" d="M6.611 2.5h10.39a1 1 0 011 1v10.389h-2V5.914l-11 11L3.585 15.5l11-11H6.61v-2z"></path>
+                        </g>
+                    </svg>
+                </a>
+                
+                <picture>
+                    <source type="image/webp" srcset="./img/logos/1650481703-logo-exame-invest.png">
+                    <img src="./img/logos/1650481703-logo-exame-invest.png"
+                        alt="Logo da Exame Invest" loading="lazy" importance="auto">
+                </picture>
+            </div>
+
+            <div class="align-sequence-of-comments">
+                <h4 class="preset-h4">Nubank é a primeira instituição financeira do Brasil a zerar emissões de gás carbono.</h4>
+                
+                <a href="#" class="style-link animation-link">Leia a matéria
+                    <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="none" viewBox="0 0 21 20" color="currentColor" role="img">
+                        <g>
+                            <path fill-rule="evenodd" clip-rule="evenodd" d="M6.611 2.5h10.39a1 1 0 011 1v10.389h-2V5.914l-11 11L3.585 15.5l11-11H6.61v-2z"></path>
+                        </g>
+                    </svg>
+                </a>
+
+                <picture>
+                    <source type="image/webp" srcset="./img/logos/1650481539-logo-valor-investe.png">
+                    <img src="./img/logos/1650481539-logo-valor-investe.png"
+                        alt=" Logo da Valor Investe" loading="lazy" importance="auto">
+                </picture>
+            </div>
+        </div>
+    </section>
+
+    <!-- section 8 -->
+    <section class="container-elements image-footer adjust1"> 
+        <div class="set-order-elements">
+            <div class="align-text-simplify-your-life">
+                <h2 class="preset-h2">
+                    Simplifique a sua
+                    vida. Peça seu
+                    Nubank.
+                </h2>
+                <div class="align-text-information-of-company">
+                    <p>Nu Pagamentos S.A - Instituição de Pagamento. - <p>CNPJ 18.236.120/0001-58</p></p>
+                    <p>Rua Capote Valente, 39 - 05409-000 - São Paulo, SP</p>
+
+                </div>
+            </div>
+        </div>
+
+    </section>
+
+    <script src="main.js"></script>
+</body>
+
+</html>
