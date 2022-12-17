@@ -20,8 +20,8 @@ exatamente igual no meu exercício. Nele eu consegui pensar como os reais desenv
 
 ## 📚 Mais informações
 
-### 📍 Para acessar o site feito no exercício clique [Aqui](https://caiouser2.github.io/Clone-Nubank-peca-seu-cartao/)
-### 📍 Para acessar o site original qual o exercício tem por base clique [Aqui](https://nubank.com.br/pedir/nu/)
+#### 📍 Para acessar o site feito no exercício clique [Aqui](https://caiouser2.github.io/Clone-Nubank-peca-seu-cartao/)
+#### 📍 Para acessar o site original qual o exercício tem como base clique [Aqui](https://nubank.com.br/pedir/nu/)
 <h1/>
 
 
