@@ -24,7 +24,6 @@ exatamente igual no meu exercício. Nele eu consegui pensar como os reais desenv
 #### 📍 Para acessar o site original qual o exercício tem como base clique [Aqui](https://nubank.com.br/pedir/nu/)
 <h1/>
 
-
 <h2 align="center">🛑 Aviso 🛑</h2> 
 <h4 align="center">
 O site do resultante do exercício é de caráter acadêmico e em momemento nenhum não tem intenção de passar pelo original
@@ -33,4 +32,7 @@ compor o exercício.
 </h4>
 <h1/>
 
+<p align="center">
+<img  width="450px" height="250px" src="./img/video/2022-12-17 15-08-15 - Trim_Segment_0_gif.gif"/>
+</p>
 <h4 align="center">Obrigado a todos que chegaram até aqui 💜</h5>
